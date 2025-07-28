@@ -5,27 +5,23 @@
 #include "Logo.h"
 #include "User.h"
 #include "UserClass.h"
-#include "LibarianClass.h"
+#include "BookClass.h"
+#include "LibrarianClass.h"
  using namespace std;
 
  //variable declaration
  int login_as;
 int LoginUserID;
  
-//book class for all book objects
-class Book{
-
- private:
-  Book(int ID,string title,string author){
-
-    };
 
 
-};
 
 //array to store the user data
  vector<User>  users;
-
+//array to store the libarian data
+vector<Librarian> Libarians;
+//array to store teh BOOKS
+vector<Book> books;
 /*********************************Main Function ************************************************* */
 
 int main (){
@@ -45,7 +41,7 @@ cin>>login_as;
 
 if (login_as==1){
 bool found=LoginUser();
-
+  
  if(!found){
    RegisterUser();
    goto start;

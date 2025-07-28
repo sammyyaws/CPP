@@ -1,3 +1,7 @@
+/**this file contains the user registration and 
+ * login functions from the cpp and makes them accessible any it is included  */
+
+
 #ifndef USER_H
 #define  USER_H
 

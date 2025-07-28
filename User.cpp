@@ -25,7 +25,7 @@ cin>>LoginUserID;
   if (u.getID()==LoginUserID){
 //user logged in interface
 
-    cout<<"Welcome, You have succesfully logged  in";
+    cout<<"Welcome"<<setw(20)<<u.getName();
    found=true;
      break;
   }}
