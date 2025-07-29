@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/LIBMAS.dir/link.d CMakeFiles/LIBMAS.dir/Main.cpp.o CMakeFiles/LIBMAS.dir/Librarian.cpp.o CMakeFiles/LIBMAS.dir/User.cpp.o -o LIBMAS  libsqlite3.a

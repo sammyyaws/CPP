@@ -1,0 +1,4 @@
+/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles/sqlite3.dir
+/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles/LIBMAS.dir
+/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles/edit_cache.dir
+/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles/rebuild_cache.dir
