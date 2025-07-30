@@ -7,26 +7,38 @@
 #include "UserClass.h"
 #include "BookClass.h"
 #include "LibrarianClass.h"
+#include "Librarian.h"
+#include "sql/sqlite3.h"
+#include "Database.h"
  using namespace std;
+
+
+ //setting up the sqlite database
+sqlite3*db;
+
+
 
  //variable declaration
  int login_as;
 int LoginUserID;
  
 
-
+//array to store teh BOOKS
+vector<Book> books;
 
 //array to store the user data
  vector<User>  users;
-//array to store the libarian data
-vector<Librarian> Libarians;
-//array to store teh BOOKS
-vector<Book> books;
+//array to  store librarian data
+ vector<Librarian> Librarians ;
+
+
 /*********************************Main Function ************************************************* */
 
 int main (){
-    //including the intro part
-   showLogo();
+  
+
+   
+
 
    //start of excution
 start:
@@ -54,6 +66,16 @@ bool found=LoginUser();
 //getting access to the Libarian Interface
 else if (login_as==2){
 
+    // Add some librarian details manually before login
+    Librarians.push_back(Librarian(101, "Mr. Mensah", books));
+    Librarians.push_back(Librarian(102, "Ms. Afua", books));
+    Librarians.push_back(Librarian(103, "Dr. Kofi", books));
+    
+bool foundlib =LoginLibrarian();
+ if(!foundlib){
+  cout<<"You are not allowed to work as a librarian"<<endl;
+   goto start;
+    }
 }
 else {
     cout<<"Check your input, choose 1 or 2"<<endl;
