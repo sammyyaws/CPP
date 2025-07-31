@@ -3,11 +3,11 @@
 #include <string>
 #include <iomanip>
 #include "UserClass.h"
+#include "sql/sqlite3.h"
 using namespace std;
 
-
 extern vector<User> users;
-
+extern sqlite3 *db;
 //Login Part
 bool LoginUser(){
     int LoginUserID;

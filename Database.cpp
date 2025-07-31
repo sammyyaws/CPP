@@ -13,21 +13,34 @@ bool initDatabase(sqlite3 **db){
       //including the intro part
    showLogo();
  
-
+//Querry to create the Book table
 char *createBookTable="CREATE TABLE  IF NOT EXISTS Book("
-"bookId INTEGER PRIMARY KEY AUTOINCREMENT,"
+"BookId INTEGER PRIMARY KEY AUTOINCREMENT,"
 "Title TEXT NOT NULL,"
 "Author TEXT NOT NULL,"
 " Borrow BOOLEAN DEFAULT 0);";
 
+//Querry to create the User table
  
-char *createUserTable="CREATE TABLE IF NOT EXISTS User("
+const char *createUserTable="CREATE TABLE IF NOT EXISTS User("
 "UserId INTEGER PRIMARY KEY AUTOINCREMENT,"
 "UserName TEXT NOT NULL,"
 "Borrowed BOOLEAN DEFAULT 0);";
+//Querry to create the Borrowed table
+
+const char *createBorrowTable="CREATE TABLE IF NOT EXISTS Borrow("
+"BorrowId INTEGER PRIMARY KEY AUTOINCREMENT,"
+"UserId INTEGER NOT NULL,"
+"BookId INTEGER NOT NULL,"
+"BorrowedDate TEXT NOT NULL,"
+"ReturnDate TEXT,"
+"FOREIGN KEY(UserId) REFERENCES User(UserId),"
+"FOREIGN KEY(BookId) REFERENCES Book(BookId));";
 
 char *errMessage=nullptr;
  rc=sqlite3_exec(*db,createBookTable,nullptr,nullptr,&errMessage);
+
+ //executing the sqlite3 for BookTable
 
 if (rc!=SQLITE_OK){
    cerr<<"Error creating table (Book)"<<errMessage;
@@ -35,7 +48,7 @@ if (rc!=SQLITE_OK){
    return false;
 }
 
-//executing the sqlite3
+//executing the sqlite3 for userTable
 rc=sqlite3_exec(*db,createUserTable,nullptr,nullptr,&errMessage);
 if(rc!=SQLITE_OK){
  
@@ -43,6 +56,14 @@ if(rc!=SQLITE_OK){
    sqlite3_free(errMessage);
    return false;
 
+}
+
+//executing the sqlite3 for BorrowTable
+rc=sqlite3_exec(*db,createBorrowTable,nullptr,nullptr,&errMessage);
+if(rc!=  SQLITE_OK){
+      cerr<<"Error creating table (Borrow)"<<errMessage;
+   sqlite3_free(errMessage);
+   return false;
 }
 
 return true;
