@@ -88,7 +88,7 @@ clean: CMakeFiles/LIBMAS.dir/clean
 CMakeFiles/sqlite3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=5,6 "Built target sqlite3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=7,8 "Built target sqlite3"
 .PHONY : CMakeFiles/sqlite3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,7 +105,7 @@ sqlite3: CMakeFiles/sqlite3.dir/rule
 # codegen rule for target.
 CMakeFiles/sqlite3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite3.dir/build.make CMakeFiles/sqlite3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=5,6 "Finished codegen for target sqlite3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=7,8 "Finished codegen for target sqlite3"
 .PHONY : CMakeFiles/sqlite3.dir/codegen
 
 # clean rule for target.
@@ -120,12 +120,12 @@ CMakeFiles/sqlite3.dir/clean:
 CMakeFiles/LIBMAS.dir/all: CMakeFiles/sqlite3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=1,2,3,4 "Built target LIBMAS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LIBMAS"
 .PHONY : CMakeFiles/LIBMAS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LIBMAS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sammyaws/Desktop/LIBMAS/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sammyaws/Desktop/LIBMAS/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LIBMAS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sammyaws/Desktop/LIBMAS/build/CMakeFiles 0
 .PHONY : CMakeFiles/LIBMAS.dir/rule
@@ -137,7 +137,7 @@ LIBMAS: CMakeFiles/LIBMAS.dir/rule
 # codegen rule for target.
 CMakeFiles/LIBMAS.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target LIBMAS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sammyaws/Desktop/LIBMAS/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target LIBMAS"
 .PHONY : CMakeFiles/LIBMAS.dir/codegen
 
 # clean rule for target.

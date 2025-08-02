@@ -1,5 +1,5 @@
-CMakeFiles/LIBMAS.dir/Librarian.cpp.o: \
- /home/sammyaws/Desktop/LIBMAS/Librarian.cpp /usr/include/stdc-predef.h \
+CMakeFiles/LIBMAS.dir/Logo.cpp.o: /home/sammyaws/Desktop/LIBMAS/Logo.cpp \
+ /usr/include/stdc-predef.h /home/sammyaws/Desktop/LIBMAS/Logo.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -150,11 +150,7 @@ CMakeFiles/LIBMAS.dir/Librarian.cpp.o: \
  /usr/include/c++/14/bits/locale_facets.tcc \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
- /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/vector \
- /usr/include/c++/14/bits/stl_uninitialized.h \
- /usr/include/c++/14/bits/stl_vector.h \
- /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/iomanip \
  /usr/include/c++/14/locale \
  /usr/include/c++/14/bits/locale_facets_nonio.h /usr/include/c++/14/ctime \
  /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
@@ -163,7 +159,4 @@ CMakeFiles/LIBMAS.dir/Librarian.cpp.o: \
  /usr/include/c++/14/bits/locale_facets_nonio.tcc \
  /usr/include/c++/14/bits/locale_conv.h \
  /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/sstream \
- /usr/include/c++/14/bits/sstream.tcc \
- /home/sammyaws/Desktop/LIBMAS/LibrarianClass.h \
- /home/sammyaws/Desktop/LIBMAS/BookClass.h \
- /home/sammyaws/Desktop/LIBMAS/sql/sqlite3.h
+ /usr/include/c++/14/bits/sstream.tcc

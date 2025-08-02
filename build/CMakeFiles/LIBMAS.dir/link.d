@@ -5,6 +5,8 @@ LIBMAS: \
   CMakeFiles/LIBMAS.dir/Main.cpp.o \
   CMakeFiles/LIBMAS.dir/Librarian.cpp.o \
   CMakeFiles/LIBMAS.dir/User.cpp.o \
+  CMakeFiles/LIBMAS.dir/Database.cpp.o \
+  CMakeFiles/LIBMAS.dir/Logo.cpp.o \
   libsqlite3.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so \
@@ -46,6 +48,10 @@ CMakeFiles/LIBMAS.dir/Main.cpp.o:
 CMakeFiles/LIBMAS.dir/Librarian.cpp.o:
 
 CMakeFiles/LIBMAS.dir/User.cpp.o:
+
+CMakeFiles/LIBMAS.dir/Database.cpp.o:
+
+CMakeFiles/LIBMAS.dir/Logo.cpp.o:
 
 libsqlite3.a:
 

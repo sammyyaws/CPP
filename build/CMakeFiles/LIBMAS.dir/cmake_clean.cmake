@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LIBMAS.dir/link.d"
+  "CMakeFiles/LIBMAS.dir/Database.cpp.o"
+  "CMakeFiles/LIBMAS.dir/Database.cpp.o.d"
   "CMakeFiles/LIBMAS.dir/Librarian.cpp.o"
   "CMakeFiles/LIBMAS.dir/Librarian.cpp.o.d"
+  "CMakeFiles/LIBMAS.dir/Logo.cpp.o"
+  "CMakeFiles/LIBMAS.dir/Logo.cpp.o.d"
   "CMakeFiles/LIBMAS.dir/Main.cpp.o"
   "CMakeFiles/LIBMAS.dir/Main.cpp.o.d"
   "CMakeFiles/LIBMAS.dir/User.cpp.o"

@@ -167,7 +167,8 @@ CMakeFiles/LIBMAS.dir/Main.cpp.o: /home/sammyaws/Desktop/LIBMAS/Main.cpp \
  /home/sammyaws/Desktop/LIBMAS/Logo.h \
  /home/sammyaws/Desktop/LIBMAS/User.h \
  /home/sammyaws/Desktop/LIBMAS/UserClass.h \
+ /home/sammyaws/Desktop/LIBMAS/sql/sqlite3.h \
  /home/sammyaws/Desktop/LIBMAS/BookClass.h \
  /home/sammyaws/Desktop/LIBMAS/LibrarianClass.h \
  /home/sammyaws/Desktop/LIBMAS/Librarian.h \
- /home/sammyaws/Desktop/LIBMAS/sql/sqlite3.h
+ /home/sammyaws/Desktop/LIBMAS/Database.h

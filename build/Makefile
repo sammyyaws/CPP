@@ -142,6 +142,30 @@ LIBMAS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/build
 .PHONY : LIBMAS/fast
 
+Database.o: Database.cpp.o
+.PHONY : Database.o
+
+# target to build an object file
+Database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Database.cpp.o
+.PHONY : Database.cpp.o
+
+Database.i: Database.cpp.i
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Database.cpp.s
+.PHONY : Database.cpp.s
+
 Librarian.o: Librarian.cpp.o
 .PHONY : Librarian.o
 
@@ -165,6 +189,30 @@ Librarian.s: Librarian.cpp.s
 Librarian.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Librarian.cpp.s
 .PHONY : Librarian.cpp.s
+
+Logo.o: Logo.cpp.o
+.PHONY : Logo.o
+
+# target to build an object file
+Logo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Logo.cpp.o
+.PHONY : Logo.cpp.o
+
+Logo.i: Logo.cpp.i
+.PHONY : Logo.i
+
+# target to preprocess a source file
+Logo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Logo.cpp.i
+.PHONY : Logo.cpp.i
+
+Logo.s: Logo.cpp.s
+.PHONY : Logo.s
+
+# target to generate assembly for a file
+Logo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LIBMAS.dir/build.make CMakeFiles/LIBMAS.dir/Logo.cpp.s
+.PHONY : Logo.cpp.s
 
 Main.o: Main.cpp.o
 .PHONY : Main.o
@@ -248,9 +296,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... LIBMAS"
 	@echo "... sqlite3"
+	@echo "... Database.o"
+	@echo "... Database.i"
+	@echo "... Database.s"
 	@echo "... Librarian.o"
 	@echo "... Librarian.i"
 	@echo "... Librarian.s"
+	@echo "... Logo.o"
+	@echo "... Logo.i"
+	@echo "... Logo.s"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
