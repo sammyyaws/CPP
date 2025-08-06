@@ -165,6 +165,6 @@ CMakeFiles/LIBMAS.dir/User.cpp.o: /home/sammyaws/Desktop/LIBMAS/User.cpp \
  /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/sstream \
  /usr/include/c++/14/bits/sstream.tcc \
  /home/sammyaws/Desktop/LIBMAS/UserClass.h \
+ /home/sammyaws/Desktop/LIBMAS/BookClass.h \
  /home/sammyaws/Desktop/LIBMAS/sql/sqlite3.h \
- /home/sammyaws/Desktop/LIBMAS/User.h \
- /home/sammyaws/Desktop/LIBMAS/BookClass.h
+ /home/sammyaws/Desktop/LIBMAS/User.h

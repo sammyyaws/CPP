@@ -932,7 +932,6 @@ CMakeFiles/LIBMAS.dir/User.cpp.o: /home/sammyaws/Desktop/LIBMAS/User.cpp \
   /usr/include/c++/14/iosfwd \
   /usr/include/c++/14/iostream \
   /usr/include/c++/14/istream \
-  /usr/include/c++/14/limits \
   /usr/include/c++/14/locale \
   /usr/include/c++/14/new \
   /usr/include/c++/14/ostream \
@@ -1080,8 +1079,6 @@ LIBMAS: /lib/x86_64-linux-gnu/libc.so.6 \
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
 /lib/x86_64-linux-gnu/libm.so.6:
-
-/usr/include/c++/14/limits:
 
 /home/sammyaws/Desktop/LIBMAS/User.h:
 
