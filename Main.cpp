@@ -27,7 +27,7 @@ int LoginUserID;
 vector<Book> books;
 
 //array to store the user data
- vector<User>  users;
+
 //array to  store librarian data
  vector<Librarian> Librarians ;
 
@@ -35,7 +35,11 @@ vector<Book> books;
 /*********************************Main Function ************************************************* */
 
 int main (){
-  
+  //checking for the database to start
+if (!initDatabase(&db)) {
+    cerr << "Failed to initialize the database. Exiting..." << endl;
+    return 1;
+}
 
    
 
@@ -49,8 +53,7 @@ cout <<setw(20)<<"1:USER"<<setw(20)<<"2:LIBRIAN \n"<<endl;
   cout <<"\033[0m"; 
 cin>>login_as;
 
-//getting access to the user Interface
-
+//getting
 if (login_as==1){
 bool found=LoginUser();
   
@@ -67,9 +70,9 @@ bool found=LoginUser();
 else if (login_as==2){
 
     // Add some librarian details manually before login
-    Librarians.push_back(Librarian(101, "Mr. Mensah", books));
-    Librarians.push_back(Librarian(102, "Ms. Afua", books));
-    Librarians.push_back(Librarian(103, "Dr. Kofi", books));
+    Librarians.push_back(Librarian(10101, "Mr. Mensah", books));
+    Librarians.push_back(Librarian(10202, "Ms. Afua", books));
+    Librarians.push_back(Librarian(10303, "Dr. Kofi", books));
     
 bool foundlib =LoginLibrarian();
  if(!foundlib){
@@ -87,3 +90,20 @@ else {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* All right reserved:Project Lead By Adade Samuel Yawson ********************/

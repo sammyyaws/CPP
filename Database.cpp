@@ -14,17 +14,18 @@ bool initDatabase(sqlite3 **db){
    showLogo();
  
 //Querry to create the Book table
-char *createBookTable="CREATE TABLE  IF NOT EXISTS Book("
+const char *createBookTable="CREATE TABLE  IF NOT EXISTS Book("
 "BookId INTEGER PRIMARY KEY AUTOINCREMENT,"
 "Title TEXT NOT NULL,"
 "Author TEXT NOT NULL,"
-" Borrow BOOLEAN DEFAULT 0);";
+" Issued BOOLEAN DEFAULT 0);";
 
 //Querry to create the User table
  
-const char *createUserTable="CREATE TABLE IF NOT EXISTS User("
+const char *createUserTable="CREATE TABLE IF NOT EXISTS Users("
 "UserId INTEGER PRIMARY KEY AUTOINCREMENT,"
 "UserName TEXT NOT NULL,"
+"Password TEXT NOT NULL,"
 "Borrowed BOOLEAN DEFAULT 0);";
 //Querry to create the Borrowed table
 
@@ -52,7 +53,7 @@ if (rc!=SQLITE_OK){
 rc=sqlite3_exec(*db,createUserTable,nullptr,nullptr,&errMessage);
 if(rc!=SQLITE_OK){
  
-   cerr<<"Error creating table (User)"<<errMessage;
+   cerr<<"Error creating table (Users)"<<errMessage;
    sqlite3_free(errMessage);
    return false;
 
@@ -68,3 +69,29 @@ if(rc!=  SQLITE_OK){
 
 return true;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* All right reserved:Project Lead By Adade Samuel Yawson ********************/

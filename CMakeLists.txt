@@ -14,6 +14,8 @@ set(SOURCES
     Main.cpp
     Librarian.cpp
     User.cpp
+    Database.cpp
+    Logo.cpp
 )
 
 # Create the executable
@@ -21,3 +23,15 @@ add_executable(LIBMAS ${SOURCES})
 
 # Link sqlite3 to your project
 target_link_libraries(LIBMAS PRIVATE sqlite3)
+
+
+
+
+
+
+
+
+
+
+
+
