@@ -163,7 +163,7 @@ CMakeFiles/LIBMAS.dir/Librarian.cpp.o: \
  /usr/include/c++/14/bits/locale_facets_nonio.tcc \
  /usr/include/c++/14/bits/locale_conv.h \
  /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/sstream \
- /usr/include/c++/14/bits/sstream.tcc \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/limits \
  /home/sammyaws/Desktop/LIBMAS/LibrarianClass.h \
  /home/sammyaws/Desktop/LIBMAS/BookClass.h \
  /home/sammyaws/Desktop/LIBMAS/sql/sqlite3.h

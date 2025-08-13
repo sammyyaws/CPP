@@ -1,3 +1,5 @@
+///make sure you read the README.md
+
 #include <iostream>
 #include "sql/sqlite3.h"
 #include "Logo.h"

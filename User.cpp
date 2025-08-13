@@ -1,3 +1,6 @@
+///make sure you read the README.md
+
+
 #include <iostream>
 #include <vector>
 #include <string>

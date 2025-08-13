@@ -1,3 +1,5 @@
+///make sure you read the README.md
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -106,4 +108,4 @@ else {
 
 
 
-/******************* All right reserved:Project Lead By Adade Samuel Yawson ********************/
+/******************* All right reserved:Group 12 Project Lead By Adade Samuel Yawson ********************/

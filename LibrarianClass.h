@@ -114,7 +114,7 @@ static bool displayBorrowedBooks() {
         cout << left << setw(10) << borrowId
              << setw(20) << username
              << setw(30) << title
-             << setw(15) << borrowedDate << endl;
+             << setw(15) << borrowedDate <<"\n"<< endl;
 
     } while (sqlite3_step(stmt) == SQLITE_ROW);
 
