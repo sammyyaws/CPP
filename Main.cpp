@@ -1,5 +1,19 @@
 ///make sure you read the README.md
 
+/* ************************Team members **************************/
+
+
+/* 1. Adade Samuel Yawson --7258323
+2. Owusu Kwame Nketia — 7281223
+3. Kwadwo Addo Adomako- 7259723
+4. Hardi Ruhaina-7272523
+5. Emmanuel Amuzu- 7263323
+6. ⁠Derrick Akpah Dodzi- 7262123
+7. ⁠Awuah Godfred-7266523
+8. Osei Bonsu Kwame Nana-7280323 */
+
+
+
 #include <iostream>
 #include <vector>
 #include <string>
